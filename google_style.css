@@ -1,0 +1,156 @@
+a{
+	text-decoration: none;
+}
+
+a:hover, a:active{ 
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+body{
+	font-family: arial,sans-serif;
+	font-size: 13px;
+}
+
+.header{
+	color: #000;
+	margin-top: 15px;
+	opacity: 0.75;
+}
+
+#header_left{
+	z-index: 1;
+	position: absolute;
+	margin-left: 7px;
+	padding-top: 15px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#header_left a{
+	padding-left: 10px;
+}
+
+#header_right{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: right;
+	padding-right: 7px;
+	padding-top:  9px;
+	align-items: center;
+}
+
+#header_right a{
+	text-align: right; 
+	padding-left: 10px;
+}
+
+
+#google_apps {
+	background-image: url("i1_1967ca6a.png");
+	background-size: 528px 68px;
+	background-position: -132px -38px;
+	opacity: .55;
+	height: 30px;
+	width: 30px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#google_apps:hover, #google_apps:active {
+	text-decoration: none;
+	opacity: 100%;
+}
+
+#profile_pic{
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+.google_img{
+	padding-top: 200px; 
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.search_bar{
+	display: flex;
+	flex-direction: row;
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+	height: 44px;
+	width: 580px;
+	margin-top: 20px;
+}
+
+.search_bar:hover {
+	box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+#search_img{
+	flex: 0|0|auto;
+	height:17px;
+	width:17px;
+	padding-left: 18px;
+	padding-top: 14px;
+	opacity: 50%
+}
+
+#search_type{
+	flex: 0|0|auto;
+	border: none;
+	font-size: 15;
+	padding-left: 15px;
+	width: 100%;
+	border-radius: 24px;
+
+}
+
+#search_buttons{
+	border-radius: 4px;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	color: #5F6368;
+	cursor: pointer;
+	box-shadow: none;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	margin-top: 25px;
+	height: 36px;
+	min-width: 54px;
+	text-align: center;
+}
+
+#search_buttons:hover{
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	color: #222;
+}
+
+#offered_in{
+	margin-top: 25px;
+}
+
+#offered_in a{
+	color: #1a0dab;
+}
+
+.footer{
+	box-sizing: border-box;
+	border: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: rgba(0,0,0,.54);
+	font-size: 16px;
+	padding-left: 25px;
+}
+
+
+
